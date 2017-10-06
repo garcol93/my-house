@@ -92,4 +92,13 @@ public class Picture
             sun.changeColor("yellow");
         }
     }
+    
+    /**
+     * el sol se mueve
+     */
+    public void moveSun()
+    {
+        sun.slowMoveVertical(80);
+    }
 }
+
